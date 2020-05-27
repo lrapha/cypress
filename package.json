@@ -1,0 +1,14 @@
+{
+    "name": "cypress-ci",
+    "version": "1.21.0",
+    "main": "index.js",
+    "scripts": {
+        "cypress:open": "cypress open",
+        "cy:run:chrome": "cypress run --browser chrome",
+        "test": "npx cypress run"
+    },
+    "devDependencies": {
+        "@knapsack-pro/cypress": "^2.0.0",
+        "cypress": "^4.5.0"
+    }
+}
